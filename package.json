@@ -1,6 +1,6 @@
 {
-  "name": "react-native-red5pro",
-  "version": "10.0.1",
+  "name": "rn-red5pro",
+  "version": "0.10.1",
   "description": "React Native Red5 Pro Publisher/Subscriber",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/infrared5/react-native-red5pro.git"
+    "url": "git+https://github.com/saheem128/react-native-red5pro.git"
   },
   "keywords": [
     "red5pro",
@@ -35,6 +35,10 @@
     {
       "name": "Kyle Kellogg",
       "email": "kkellogg@infrared5.com"
+    },
+    {
+      "name": "Saheem Hussain",
+      "email": "saheem128@gmail.com"
     }
   ],
   "license": "LICENSE",
