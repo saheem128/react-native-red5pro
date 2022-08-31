@@ -6,7 +6,7 @@
 
 # react-native-red5pro
 
-> This project is in **BETA**.
+> This package was forked from offical react-native-red5pro. It's still in **BETA**.
 
 React Native Red5 Pro Publisher & Subscriber.
 
