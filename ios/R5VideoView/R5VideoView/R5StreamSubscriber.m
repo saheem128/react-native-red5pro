@@ -142,15 +142,11 @@
 
 - (void)unsubscribe {
     
-    if (_isStreaming) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self.stream stop];
-        });
-    }
-    else {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.stream stop];
         [self emitEvent:@"onUnsubscribeNotification" withBody:@{}];
         [self tearDown];
-    }
+    });
     
 }
 

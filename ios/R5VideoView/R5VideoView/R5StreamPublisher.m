@@ -242,14 +242,12 @@
 
 - (void)unpublish {
     
-    if (_isStreaming) {
+    dispatch_async(dispatch_get_main_queue(), ^{
         [self.stream stop];
-    }
-    else {
         [self emitEvent:@"onUnpublishNotification" withBody:@{}];
         [self tearDown];
-    }
-    
+    });
+
 }
 
 - (void)swapCamera {
