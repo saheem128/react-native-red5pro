@@ -281,7 +281,8 @@ public class R5StreamSubscriber implements R5StreamInstance,
 			Log.d(TAG, "UNSUBSCRIBE");
 			cleanup();
 		}
-
+		onHostDestroy();
+		
 	}
 
 	public void setPlaybackVolume (float value) {

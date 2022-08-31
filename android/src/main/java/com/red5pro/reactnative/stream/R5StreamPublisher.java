@@ -303,7 +303,7 @@ public class R5StreamPublisher implements R5StreamInstance,
 			Log.d(TAG, "UNPUBLISH");
 			cleanup();
 		}
-		onHostDestroy()
+		onHostDestroy();
 	}
 
 	public void swapCamera () {
