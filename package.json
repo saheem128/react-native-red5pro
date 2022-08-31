@@ -41,11 +41,11 @@
       "email": "saheem128@gmail.com"
     }
   ],
-  "license": "LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/infrared5/react-native-red5pro/issues"
+    "url": "https://github.com/saheem128/react-native-red5pro/issues"
   },
-  "homepage": "https://github.com/infrared5/react-native-red5pro#readme",
+  "homepage": "https://github.com/saheem128/react-native-red5pro#readme",
   "devDependencies": {
     "@studio/changes": "^1.7.0",
     "babel-eslint": "^9.0.0",
