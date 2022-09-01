@@ -129,7 +129,7 @@ public class R5StreamSubscriber implements R5StreamInstance,
 		ActivityManager actManager = (ActivityManager) activity.getSystemService(Context.ACTIVITY_SERVICE);
 		try {
 			for (ActivityManager.RunningServiceInfo serviceInfo : actManager.getRunningServices(Integer.MAX_VALUE)) {
-				if (serviceInfo.service.getClassName().equals(PublishService.class.getName())) {
+				if (serviceInfo.service.getClassName().equals(SubscribeService.class.getName())) {
 					found = true;
 				}
 			}
